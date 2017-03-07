@@ -1,3 +1,5 @@
-module.exports = function() {
-  console.log('hello world')
-}
+// schreibe hello world in die console
+
+function printHelloWorld() {}
+
+module.exports = printHelloWorld
