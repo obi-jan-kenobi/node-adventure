@@ -8,6 +8,7 @@
     "watch": "jest --watch"
   },
   "dependencies": {
-    "jest": "^19.0.2"
+    "jest": "^19.0.2",
+    "supertest": "^3.0.0"
   }
 }
