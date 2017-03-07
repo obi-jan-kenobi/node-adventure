@@ -1,0 +1,13 @@
+{
+  "name": "at-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jan Sziegaud <j.sziegaud@atlan-tec.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "jest --watch"
+  },
+  "dependencies": {
+    "jest": "^19.0.2"
+  }
+}
