@@ -6,8 +6,9 @@ describe('aufgabe 4', () => {
     return request(s)
       .get('/')
       .expect(200)
-      .then(response => {
-        expect(response.body).toEqual('hello world')
+      .end((err, res) => {
+        expect(res.text).toEqual('hello world')
+        done()
       })
   })
 })
