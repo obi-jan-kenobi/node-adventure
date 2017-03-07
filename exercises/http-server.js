@@ -5,4 +5,6 @@ const server = http.createServer((req, res) => {
   res.end()
 })
 
+if (process.argv[2] == 3000) server.listen(3000)
+
 module.exports = server
